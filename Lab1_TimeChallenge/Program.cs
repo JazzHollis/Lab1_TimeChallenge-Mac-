@@ -52,8 +52,8 @@ namespace Lab1_TimeChallenge
                 repeat = Console.ReadLine();
 
 
-                //Gives user the option to submit another date using do while loop
-            }
+
+            }//Gives user the option to submit another date using do while loop
             while (repeat == "y" || repeat == "Y");
 
         }
