@@ -9,7 +9,7 @@ namespace Lab1_TimeChallenge
             //Used to create DateTime object and assign values
             var FirstDate = new DateTime();
             var SecondDate = new DateTime();
-
+            string repeat;
 
 
 
@@ -46,18 +46,16 @@ namespace Lab1_TimeChallenge
                 Console.WriteLine(diffTime.TotalDays / (365.25 / 12) + " Months");
                 Console.WriteLine(diffTime.TotalDays + " Days");
                 Console.WriteLine(diffTime.TotalHours + " Hours");
-                Console.WriteLine(diffTime.TotalMinutes + " Minutes!");
+                Console.WriteLine(diffTime.TotalMinutes + " Minutes");
 
-             
-                    Console.WriteLine("Would you like to select another date?(Y/N)");
-                    repeat = Console.ReadLine();
-                
+                Console.WriteLine("Would you like to select another date?(Y/N)");
+                repeat = Console.ReadLine();
 
 
-            //Gives user the option to submit another date using do while loop
-            } while (repeat == "y" || repeat == "Y");
-            
+                //Gives user the option to submit another date using do while loop
+            }
+            while (repeat == "y" || repeat == "Y");
 
         }
     }
-}
+}  
